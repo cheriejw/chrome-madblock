@@ -1,7 +1,7 @@
 # chrome-madblock
 Chrome extension for Manual Ad Block.
 
-#### To install:
+### To install:
 - Clone this repository.
 - Go to [chrome://extensions/](chrome://extensions/).
 - Toggle "Developer Mode" on top right.
