@@ -2,5 +2,17 @@
   "name": "MadBlock",
   "version": "0.0",
   "description": "Manual Ad Block",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [ // All api used are here, kind of like imports...
+    "storage",
+    "declarativeContent",
+    "activeTab" // Temporary access to tabs...
+  ],
+  "page_action": {
+    "default_popup": "popup.html" // What comes up when user clicks on active icon.
+  },
   "manifest_version": 2
 }
